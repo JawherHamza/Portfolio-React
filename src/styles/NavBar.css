@@ -1,0 +1,36 @@
+.language-ico {
+  max-width: 20px;
+  margin: 5px
+}
+
+.App {
+  text-align: center;
+}
+
+.MuiAppBar-colorPrimary {
+  color: #fff;
+  background-color: rgba(190, 190, 190, 0.6) !important;
+}
+
+.navbar-brand {
+  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(155, 155, 155, 0.281);
+  font-size: 35px;
+  animation: blinker 3s linear;
+  animation-iteration-count: 2;
+  color: rgb(255, 255, 255);
+}
+
+@font-face {
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cookie-Regular'), url(../assets/cookie.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#dash,
+#dash2 {
+  color: #9a3209 !important;
+  font-size: 14px;
+}

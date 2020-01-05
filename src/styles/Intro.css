@@ -1,0 +1,32 @@
+.intro {
+    background-image: url("https://www.itl.cat/pngfile/big/206-2069272_tree-winter-snow-minimal-hd-wallpaper-minimalist-winter.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.text-intro {
+    text-align: left;
+    max-width: 70%;
+}
+
+.dash {
+    width: 8%;
+    border-top: 3px solid rgb(255, 208, 0);
+}
+
+.intro-body {
+    padding-top: 80px;
+}
+
+.show-more {
+    bottom: 0;
+    position: absolute;
+}
