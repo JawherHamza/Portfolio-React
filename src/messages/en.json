@@ -191,6 +191,70 @@
                     "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
                 }
             ]
+        },
+        "Applications de bureau": {
+            "skillTitle": "Desktop Applications",
+            "list": [{
+                    "skill": "Windows Forms ( C# / .NET)",
+                    "picture": "https://www.apollo-formation.com/wp-content/uploads/Visual_Studio_2013_Logo.svg_-290x300.png"
+                },
+                {
+                    "skill": "SWING ( JAVA )",
+                    "picture": "https://www.barmaje.com/images/java_swing_logo.png"
+                }
+            ]
+        },
+        "Autres": {
+            "skillTitle": "More",
+            "list": [{
+                    "skill": "Android",
+                    "picture": "https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png"
+                },
+                {
+                    "skill": "Axios",
+                    "picture": "https://avatars0.githubusercontent.com/u/3382421?s=400&v=4"
+                },
+                {
+                    "skill": "Postman",
+                    "picture": "https://www.getpostman.com/img/v2/logo-glyph.png"
+                },
+                {
+                    "skill": "Bash / Shell / PowerShell",
+                    "picture": "https://3.bp.blogspot.com/-a7jPVdFk9Hw/W_XeTJX6JyI/AAAAAAAAC2c/HCtxP0wSSs0wEMKJOYq7pivEJaSVin92gCLcBGAs/s1600/powershell.png"
+                },
+                {
+                    "skill": "UML",
+                    "picture": "http://fortimelp.fr/250-large_default/formation-uml-analyse-et-conception-4-jours.jpg"
+                },
+                {
+                    "skill": "ESLint",
+                    "picture": "https://rawgit.com/mattpjohnson/VS-Code-Web-Powerpack/master/docs/es-lint.png"
+                },
+                {
+                    "skill": "C",
+                    "picture": "https://ladghemsaid.github.io/TP3/c.png"
+                },
+                {
+                    "skill": "COBOL",
+                    "picture": "https://www.supinfo.com/articles/resources/208289/5774/0.png"
+                },
+                {
+                    "skill": "Putty / FileZilla",
+                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png"
+                },
+                {
+                    "skill": "NPM / Yarn / Bower",
+                    "picture": "https://miro.medium.com/max/900/1*9W9ar6kWg8RTB3vYYwti-w.png"
+                },
+                {
+                    "skill": "Docker",
+                    "picture": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
+                },
+                {
+                    "skill": "Netlify",
+                    "picture": "https://temudokter.netlify.com/static/media/netlify.92b6c228.png"
+                }
+            ]
         }
     }
 }
