@@ -6,8 +6,9 @@
     background-size: cover;
     left: 0;
     top: 0;
-    padding: 55px 35px;
+    padding: 40px 50px;
     width: 100%;
+    text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -29,4 +30,5 @@
 
 a {
     text-decoration: none !important;
+    color: #525252
 }

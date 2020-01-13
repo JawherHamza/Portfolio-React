@@ -3,10 +3,6 @@
   margin: 5px;
 }
 
-.App {
-  text-align: center;
-}
-
 .MuiAppBar-colorPrimary {
   color: #fff;
   background-color: rgba(190, 190, 190, 0.6) !important;
@@ -31,6 +27,26 @@
 
 #dash,
 #dash2 {
-  color: #9a3209 !important;
+  color: #525252 !important;
   font-size: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  text-align: center;
+  padding: 50px;
+  border-top: 1px solid #EEEEEE;
+
 }

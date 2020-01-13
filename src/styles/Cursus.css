@@ -1,1 +1,27 @@
-.cursus {}
+.current {
+    border-left: 4px solid #618699;
+    padding-left: 20px;
+    animation: blinker 1s linear infinite;
+}
+
+.current-scol {
+    border-right: 4px solid #C1524C;
+    padding-right: 20px;
+    animation: blinker-red 1s linear infinite;
+}
+
+@keyframes blinker-red {
+    50% {
+        border-right: 4px solid transparent;
+    }
+}
+
+@keyframes blinker {
+    50% {
+        border-left: 4px solid transparent;
+    }
+}
+
+#cursus-title {
+    text-align: center;
+}

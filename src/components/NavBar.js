@@ -6,7 +6,6 @@ import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
-import Container from "@material-ui/core/Container";
 import Fab from "@material-ui/core/Fab";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import Zoom from "@material-ui/core/Zoom";
@@ -14,7 +13,9 @@ import { Slide, IconButton, Menu, MenuItem } from "@material-ui/core";
 import LanguageIcon from "@material-ui/icons/Language";
 import Intro from "./Intro";
 import Cursus from "./Cursus";
+import Skills from "./Skills";
 import "../styles/NavBar.css";
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -81,8 +82,7 @@ export default function NavBar({ setLanguage }) {
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
               <span className="navbar-brand">
-                <i id="dash" class="fa fa-code" /> Jawher Hamza
-                <i id="dash2" class="fa fa-code" />
+                <i id="dash" class="fa fa-code" /> Jawher Hamza  <i id="dash2" class="fa fa-code" />
               </span>
             </Typography>
             <IconButton
@@ -121,6 +121,7 @@ export default function NavBar({ setLanguage }) {
               >
                 English{" "}
                 <img
+                  alt='en'
                   src="https://cometrip.sn/_nuxt/img/e53dbca.png"
                   className="language-ico"
                 ></img>
@@ -132,6 +133,7 @@ export default function NavBar({ setLanguage }) {
               >
                 Français{" "}
                 <img
+                  alt='fr'
                   src="https://cometrip.sn/_nuxt/img/d892704.png"
                   className="language-ico"
                 ></img>
@@ -143,8 +145,9 @@ export default function NavBar({ setLanguage }) {
       <Toolbar id="back-to-top-anchor" />
       <Intro />
       <Cursus />
+      <Skills />
       <ScrollTop>
-        <Fab color="secondary" size="small" aria-label="Scroll Back To Top">
+        <Fab size="small" aria-label="Scroll Back To Top">
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>

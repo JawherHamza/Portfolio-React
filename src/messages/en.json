@@ -9,5 +9,188 @@
     "hi": "HI !",
     "name": "I'M JAWHER HAMZA",
     "intro": "I'm related to web development. I follow-up on the most recent changes in web development and i do it with passion. I set up this site in order to expose my career and share my passion.",
-    "show-more": "Show More"
+    "show-more": "Show More",
+    "cursus-title": "Cursus",
+    "skills-title": "Skills",
+    "visit": "Visit the Project",
+    "used-tech": "Used Technologies",
+    "cursus": {
+        "cursus1": {
+            "date": "07 / 2019 -> present",
+            "desc": [
+                "Front End Developer (React JS) responsible for development and usability and interaction testing of Sopra HR Software web solutions.",
+                "Specification of needs and development of several new functionalities for the optimization of web solutions.",
+                "Customer Service and Customer Experience Consultant",
+                "Maintenance of the final product deployed for the customer."
+            ],
+            "place": "Sopra HR Software",
+            "title": "Front End Developer"
+        },
+        "cursus2": {
+            "date": "01 / 2019 -> 06 / 2019",
+            "desc": [
+                "Creation of a responsive web platform (Alternative de Airbnb) which offers short-term property rental services in Senegal.",
+                "Front End Developer JavaScript (JS View).",
+                "Project design and usability and interaction test manager.",
+                "Definition of needs and functionalities to develop for the client."
+            ],
+            "place": "HMMG",
+            "title": "Intern / Front End Developer"
+        },
+        "cursus3": {
+            "date": "01 / 2018 -> 02 / 2018",
+            "desc": ["Build a restaurant discovery application using ASP.NET Core"],
+            "place": "PeakSource",
+            "title": "Intern"
+        }
+    },
+    "scolaire": {
+        "scolaire1": {
+            "date": "2019 -> present",
+            "place": "TEK-UP",
+            "title": "Engineer's degree, Software Engineering"
+        },
+        "scolaire2": {
+            "date": "2016 -> 2019",
+            "place": "Higher Institute of Technological Studies of Radès",
+            "title": "Licence, Information Systems Development"
+        },
+        "scolaire3": {
+            "date": "2015/2016",
+            "place": "Farhat Hached Rades High School",
+            "title": "Baccalaureate, Technical Sciences"
+        }
+    },
+    "skills": {
+        "front-end": {
+            "skillTitle": "Front End",
+            "list": [{
+                    "skill": "JavaScript",
+                    "sub": "ES5/6",
+                    "picture": "https://blog.savoirfairelinux.com/fr-ca/wp-content/uploads/2017/12/javascript.png"
+                },
+                {
+                    "skill": "React",
+                    "sub": "Redux / Next",
+                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                },
+                {
+                    "skill": "VueJS",
+                    "sub": "Vuex / NuxtJS",
+                    "picture": "https://fr.vuejs.org/images/logo.png"
+                },
+                {
+                    "skill": "HTML5 / CSS 3",
+                    "picture": "http://www.webat25.org/wp-content/uploads/2019/02/apprendre-html-et-css.jpg"
+                },
+                {
+                    "skill": "UI Librairies",
+                    "sub": "Material UI, Element UI, Bootstrap",
+                    "picture": "https://cdn.dribbble.com/users/2162265/screenshots/5816007/daily_ui_ui_logo.png"
+                },
+                {
+                    "skill": "SASS / LESS",
+                    "picture": "https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
+                },
+                {
+                    "skill": "JSON / XML",
+                    "picture": "https://daoinsights.com/wp-content/uploads/2015/08/json-logo.png"
+                },
+                {
+                    "skill": "jQuery",
+                    "picture": "https://joykal.com/wp-content/uploads/2019/09/jquery.png"
+                }
+            ]
+        },
+        "back-end": {
+            "skillTitle": "Back End",
+            "list": [{
+                    "skill": "Node JS",
+                    "sub": "ExpressJS",
+                    "picture": "https://www.apollo-formation.com/wp-content/uploads/Node.js_logo.svg_-300x300.png"
+                },
+                {
+                    "skill": "ASP.NET Core",
+                    "sub": "Entity FrameWork",
+                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"
+                },
+                {
+                    "skill": "J2EE",
+                    "picture": "https://www.apollo-formation.com/wp-content/uploads/jee-282x300.png"
+                },
+                {
+                    "skill": "PHP",
+                    "picture": "https://img.pngio.com/php-transparent-png-png-mart-php-png-2048_1024.png"
+                }
+            ]
+        },
+        "Gestion des versions et de projet": {
+            "skillTitle": "Version and project management",
+            "list": [{
+                    "skill": "GIT",
+                    "picture": "https://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
+                },
+                {
+                    "skill": "SCRUM",
+                    "picture": "https://sitefarm.ucdavis.edu/sites/g/files/dgvnsk511/files/styles/sf_landscape_16x9/public/images/article/oie_qU9LtOeBPynx.png?h=23325160&itok=i8YyZb0m"
+                },
+                {
+                    "skill": "Trello",
+                    "picture": "https://logodix.com/logo/1143310.png"
+                },
+                {
+                    "skill": "Slack",
+                    "picture": "https://i.pinimg.com/originals/67/9c/0c/679c0c0f4b6818fa0d1bd540658a1d8f.png"
+                },
+                {
+                    "skill": "Microsoft Teams",
+                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+                },
+                {
+                    "skill": "JIRA",
+                    "picture": "https://www.supinfo.com/articles/resources/164203/578/0.png"
+                }
+            ]
+        },
+        "Test & Automatisation": {
+            "skillTitle": "Test & Automation",
+            "list": [{
+                    "skill": "Selenium",
+                    "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
+                },
+                {
+                    "skill": "Jest",
+                    "picture": "https://cdn.freebiesupply.com/logos/thumbs/1x/jest-logo.png"
+                },
+                {
+                    "skill": "jUnit",
+                    "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
+                }
+            ]
+        },
+        "Base de données": {
+            "skillTitle": "Database",
+            "list": [{
+                    "skill": "PL/SQL",
+                    "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
+                },
+                {
+                    "skill": "SQL",
+                    "picture": "https://cdn.freebiesupply.com/logos/thumbs/1x/jest-logo.png"
+                },
+                {
+                    "skill": "Microsoft Access",
+                    "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
+                },
+                {
+                    "skill": "Oracle SQL developer",
+                    "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
+                },
+                {
+                    "skill": "MySQL",
+                    "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
+                }
+            ]
+        }
+    }
 }
