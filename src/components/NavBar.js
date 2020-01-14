@@ -16,6 +16,7 @@ import Cursus from "./Cursus";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Passions from "./Passions";
+import Contact from "./Contact";
 import "../styles/NavBar.css";
 import Typing from 'react-typing-animation';
 import { FormattedMessage } from "react-intl";
@@ -143,6 +144,7 @@ export default function NavBar({ setLanguage }) {
       <Skills />
       <Projects />
       <Passions />
+      <Contact />
       <ScrollTop>
         <Fab size="small" aria-label="Scroll Back To Top">
           <KeyboardArrowUpIcon />

@@ -6,12 +6,12 @@ import { FormattedMessage } from 'react-intl';
 
 const useStyles = makeStyles(theme => ({
     passion: {
-        padding: '1px 0px 0 0',
-        margin: '30px 0px',
+        padding: '1px 0 0 0',
+        margin: '30px 0 30px 0',
         backgroundColor: '#a6a6a6',
     },
     imgCircle: {
-        margin: "20",
+        marginBottom: "20px",
         borderRadius: "50%",
         width: "300px",
         height: "300px",
@@ -25,7 +25,7 @@ export default function VerticalTabs() {
     return (
         <div className={classes.passion} id="passions">
             <Container>
-                <h1 class="title" >
+                <h1 class="title">
                     <FormattedMessage id="passion-title" />
                 </h1>
                 <div style={{
@@ -33,15 +33,16 @@ export default function VerticalTabs() {
                 }}>
                     <Grid
                         container
-                        direction="row"
                         justify="space-evenly"
-                        alignItems="stretch"
-                        spacing={6}>
-                        {passions.map((passion) => <Grid item style={{ margin: '30px 0' }}>
-                            <img className={classes.imgCircle}
-                                src={passion.pic} />
-                            <h3>{passion.name}</h3>
-                        </Grid>)}
+                    >
+                        {
+                            passions.map((passion) =>
+                                <Grid item style={{ margin: '30px 0' }} >
+                                    <img className={classes.imgCircle} src={passion.pic} />
+                                    <h3>{passion.name}</h3>
+                                </Grid>
+                            )
+                        }
                     </Grid>
                 </div >
             </Container >

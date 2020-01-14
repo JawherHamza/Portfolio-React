@@ -89,7 +89,7 @@ export default function Intro() {
                       </strong>
                       : <bold>Hamza</bold>
                       <br></br>
-                      <strong>E-mail</strong> : jawher_hamza@yahoo.fr<br></br>
+                      <strong>E-mail</strong> : <a href="mailto:jawher_hamza@yahoo.fr">jawher_hamza@yahoo.fr</a><br></br>
                       <strong>
                         <FormattedMessage id="birthday" />
                       </strong>
