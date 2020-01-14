@@ -1,7 +1,7 @@
 {
     "download-cv-french": "CV (French)",
     "download-cv-english": "CV (English)",
-    "status": "Front End Web Developer at Sopra HR Software.",
+    "status": "Front End Web Developer and Consultant at Sopra HR Software.",
     "firstname": "Firstname",
     "lastname": "Lastname",
     "birthday": "Date of Birth",
@@ -25,7 +25,7 @@
                 "Maintenance of the final product deployed for the customer."
             ],
             "place": "Sopra HR Software",
-            "title": "Front End Developer"
+            "title": "Front End Developer and Consultant"
         },
         "cursus2": {
             "date": "01 / 2019 -> 06 / 2019",
