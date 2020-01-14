@@ -1,8 +1,7 @@
 {
-    "hello": "FR",
     "download-cv-french": "CV (Français)",
     "download-cv-english": "CV (Anglais)",
-    "status": "Développeur Web FullStack chez Sopra HR Software.",
+    "status": "Développeur Web Front End chez Sopra HR Software.",
     "firstname": "Prénom",
     "lastname": "Nom",
     "birthday": "Date de Naissance",
@@ -14,6 +13,7 @@
     "skills-title": "Compétences",
     "visit": "Visiter le projet",
     "used-tech": "Technologies Utilisées",
+    "projects-title": "Projets",
     "cursus": {
         "cursus1": {
             "date": "07 / 2019 -> présent",
@@ -256,5 +256,44 @@
                 }
             ]
         }
-    }
+    },
+    "tileData": [{
+            "img": "./Cometrip.PNG",
+            "title": "ComeTrip",
+            "desc": "Création d’une plateforme web (Alternative de Airbnb) qui propose des services de locations de biens immobiliers à court terme dans le Sénégal.",
+            "link": "https://cometrip.sn/"
+        },
+        {
+            "img": "./GP4You.PNG",
+            "title": "GP4You",
+            "desc": "Solutions web de Gestion HR"
+        },
+        {
+            "img": "./EnglishPortfolio.PNG",
+            "title": "Portfolio Anglais",
+            "link": "https://jawherhamzaen.netlify.com/"
+        },
+        {
+            "img": "./FrenchPortfolio.PNG",
+            "title": "Portfolio Français",
+            "link": "https://jawherhamza.github.io/"
+        },
+        {
+            "img": "https://www.memoireonline.com/02/12/5343/Gestion-des-patients-dans-une-clinique-en-Java97.png",
+            "title": "Gestion des rendez vous médicales"
+        },
+        {
+            "img": "https://jawherhamzaen.netlify.com/assets/files/img/Portfolio/R2.png",
+            "title": "FastFood",
+            "desc": "Application Web de découverte des restaurants"
+        }
+    ],
+    "passion-title": "Passions",
+    "passions": [{
+        "passion": "Liverpool Football Club",
+        "pic": "https://d.newsweek.com/en/full/1527584/jurgen-klopp-liverpool-uefa-champions-league.jpg"
+    }, {
+        "passion": "New Tech",
+        "pic": "https://cdn.mos.cms.futurecdn.net/8bEfxy8skS6fUVZnfaLWxj.jpg"
+    }]
 }

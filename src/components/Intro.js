@@ -57,7 +57,7 @@ export default function Intro() {
           </div>
           <br />
           <br />
-          <Button variant="outlined" href="#cursus" className="show-more">
+          <Button variant="outlined" href="#cursus" className="show-more"  >
             <FormattedMessage id="show-more" />
             <ExpandMoreIcon />
           </Button>

@@ -9,12 +9,16 @@ import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Fab from "@material-ui/core/Fab";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import Zoom from "@material-ui/core/Zoom";
-import { Slide, IconButton, Menu, MenuItem } from "@material-ui/core";
+import { Slide, IconButton, Menu, MenuItem, Hidden } from "@material-ui/core";
 import LanguageIcon from "@material-ui/icons/Language";
 import Intro from "./Intro";
 import Cursus from "./Cursus";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import Passions from "./Passions";
 import "../styles/NavBar.css";
+import Typing from 'react-typing-animation';
+import { FormattedMessage } from "react-intl";
 
 
 const useStyles = makeStyles(theme => ({
@@ -82,9 +86,17 @@ export default function NavBar({ setLanguage }) {
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
               <span className="navbar-brand">
-                <i id="dash" class="fa fa-code" /> Jawher Hamza  <i id="dash2" class="fa fa-code" />
+                <span>
+                  <i id="dash" class="fa fa-code" />    Jawher Hamza   <i id="dash2" class="fa fa-code" />.
+                  </span>
               </span>
             </Typography>
+            <Hidden smDown>
+              <a href="#cursus"><FormattedMessage id="cursus-title" /></a>&nbsp;|&nbsp;
+            <a href="#skills"><FormattedMessage id="skills-title" /></a>&nbsp;|&nbsp;
+            <a href="#projects"><FormattedMessage id="projects-title" /></a>&nbsp;|&nbsp;
+            <a href="#passions"><FormattedMessage id="passion-title" /></a>&nbsp;&nbsp;
+            </Hidden>
             <IconButton
               style={{ float: "right" }}
               aria-label="account of current user"
@@ -97,46 +109,29 @@ export default function NavBar({ setLanguage }) {
             >
               <LanguageIcon />
             </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorEl}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right"
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right"
-              }}
-              open={open}
-              onClose={() => {
-                setAnchorEl(null);
-              }}
+            <Menu id="menu-appbar" anchorEl={anchorEl} anchorOrigin={{
+              vertical: "top",
+              horizontal: "right"
+            }} keepMounted transformOrigin={{
+              vertical: "top",
+              horizontal: "right"
+            }} open={open} onClose={() => {
+              setAnchorEl(null);
+            }}
             >
               <MenuItem
                 onClick={() => {
                   setLanguage("en");
                 }}
               >
-                English{" "}
-                <img
-                  alt='en'
-                  src="https://cometrip.sn/_nuxt/img/e53dbca.png"
-                  className="language-ico"
-                ></img>
+                English <img alt='en' src="https://cometrip.sn/_nuxt/img/e53dbca.png" className="language-ico"></img>
               </MenuItem>
               <MenuItem
                 onClick={() => {
                   setLanguage("fr");
                 }}
               >
-                Français{" "}
-                <img
-                  alt='fr'
-                  src="https://cometrip.sn/_nuxt/img/d892704.png"
-                  className="language-ico"
-                ></img>
+                Français <img alt='fr' src="https://cometrip.sn/_nuxt/img/d892704.png" className="language-ico"></img>
               </MenuItem>
             </Menu>
           </Toolbar>
@@ -146,6 +141,8 @@ export default function NavBar({ setLanguage }) {
       <Intro />
       <Cursus />
       <Skills />
+      <Projects />
+      <Passions />
       <ScrollTop>
         <Fab size="small" aria-label="Scroll Back To Top">
           <KeyboardArrowUpIcon />
