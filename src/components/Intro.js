@@ -13,12 +13,11 @@ import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles({
   card: {
-    maxWidth: "100%",
     height: "100%",
     textAlign: "left"
   },
   media: {
-    height: "300px"
+    height: "400px",
   }
 });
 
@@ -27,7 +26,7 @@ export default function Intro() {
   return (
     <div className="intro">
       <Grid container spacing={6} className="intro-body">
-        <Grid item xs={12} sm={7} md={8} lg={9}>
+        <Grid item xs={12} sm={12} md={8} lg={9}>
           <div className="text-intro">
             <h1>
               <FormattedMessage id="hi" /><br />
@@ -68,14 +67,14 @@ export default function Intro() {
             <ExpandMoreIcon />
           </Button>
         </Grid>
-        <Grid item xs={12} sm={5} md={4} lg={3}>
+        <Grid item style={{ width: "300px", margin: '0 auto' }}>
           <Fade in={true} timeout={{ enter: 2000, exit: 3000 }}>
             <Paper>
               <Card className={classes.card}>
                 <CardActionArea>
                   <CardMedia
                     className={classes.media}
-                    image="https://scontent.ftun11-1.fna.fbcdn.net/v/t1.0-9/13590308_10207250769091536_6312603338957898940_n.jpg?_nc_cat=110&_nc_ohc=O59BZIc4IGkAQlEkK3-E8ZE9a9-nWC3Z8UUQssNHHP8BEihkop7gSwB1w&_nc_ht=scontent.ftun11-1.fna&oh=4a01be4227ea932034972b89f14bb9aa&oe=5E9AA34B"
+                    image="./jawherhamza.jpg"
                     title="Jawher Hamza"
                   />
                   <CardContent wrap="nowrap">
