@@ -197,6 +197,10 @@
                 {
                     "skill": "MySQL",
                     "picture": "https://www.ideematic.com/wp-content/uploads/2018/02/mysql.png"
+                },
+                {
+                    "skill": "Hibernate",
+                    "picture": "https://www.bitdegree.org/tutorials/wp-content/uploads/2018/12/hibernate-interview-questions-logo.png"
                 }
             ]
         },
