@@ -27,7 +27,7 @@
 
 #dash,
 #dash2 {
-  color: #525252 !important;
+  color: rgb(235, 192, 0) !important;
   font-size: 14px;
 }
 
@@ -47,14 +47,14 @@ html {
 .title {
   /* text-align: center; */
   margin: 30px 10px;
-  border-left: 3px solid rgb(255, 208, 0);
+  border-left: 3px solid rgb(235, 192, 0);
   padding: 0 30px;
   text-transform: uppercase;
   font-weight: 200;
 }
 
 .PrivateTabIndicator-colorSecondary-301 {
-  background-color: rgb(255, 208, 0) !important;
+  background-color: rgb(235, 192, 0) !important;
 }
 
 /* width */
@@ -73,4 +73,13 @@ html {
 ::-webkit-scrollbar-thumb {
   background: grey;
   border-radius: 4px;
+}
+
+.nav-links {
+  padding: 10px;
+  color: rgb(235, 192, 0)
+}
+
+.nav-links a {
+  padding: 5px;
 }

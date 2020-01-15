@@ -15,6 +15,13 @@
     "used-tech": "Used Technologies",
     "projects-title": "Projects",
     "contact-title": "Contact",
+    "get-in-touch": "Do not hesitate to get in touch with me if you have a any request",
+    "post-a-message": "Post a message",
+    "nameplaceholder": "Name",
+    "phone": "Phone",
+    "your-message": "Your message",
+    "address": "Address",
+    "send": "Send",
     "cursus": {
         "cursus1": {
             "date": "07 / 2019 -> present",
@@ -267,7 +274,7 @@
         {
             "img": "./GP4You.PNG",
             "title": "GP4You",
-            "desc": "HR Management web solutions"
+            "desc": "HR Management web solution"
         },
         {
             "img": "./EnglishPortfolio.PNG",

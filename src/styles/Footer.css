@@ -1,0 +1,14 @@
+.footer {
+    background-color: #424242;
+    min-height: 150px;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact-buttons {
+    padding: 10px;
+}
+
+.contact-buttons span {
+    color: rgb(235, 192, 0);
+}

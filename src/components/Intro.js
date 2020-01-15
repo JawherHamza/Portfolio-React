@@ -9,6 +9,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles({
   card: {
@@ -52,6 +53,11 @@ export default function Intro() {
             <Button href="https://www.facebook.com/jawhar.hamza">
               <IconButton aria-label="upload picture" component="span" >
                 <FacebookIcon />
+              </IconButton>
+            </Button>
+            <Button href="mailto:jawher_hamza@yahoo.fr">
+              <IconButton aria-label="upload picture" component="span" >
+                <EmailIcon />
               </IconButton>
             </Button>
           </div>

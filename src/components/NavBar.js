@@ -14,6 +14,7 @@ import LanguageIcon from "@material-ui/icons/Language";
 import Intro from "./Intro";
 import Cursus from "./Cursus";
 import Skills from "./Skills";
+import Footer from "./Footer";
 import Projects from "./Projects";
 import Passions from "./Passions";
 import Contact from "./Contact";
@@ -92,11 +93,13 @@ export default function NavBar({ setLanguage }) {
                   </span>
               </span>
             </Typography>
-            <Hidden smDown>
-              <a href="#cursus"><FormattedMessage id="cursus-title" /></a>&nbsp;|&nbsp;
+            <Hidden smDown >
+              <div className="nav-links">
+                <a href="#cursus"><FormattedMessage id="cursus-title" /></a>&nbsp;|&nbsp;
             <a href="#skills"><FormattedMessage id="skills-title" /></a>&nbsp;|&nbsp;
             <a href="#projects"><FormattedMessage id="projects-title" /></a>&nbsp;|&nbsp;
             <a href="#passions"><FormattedMessage id="passion-title" /></a>&nbsp;&nbsp;
+              </div>
             </Hidden>
             <IconButton
               style={{ float: "right" }}
@@ -145,6 +148,7 @@ export default function NavBar({ setLanguage }) {
       <Projects />
       <Passions />
       <Contact />
+      <Footer />
       <ScrollTop>
         <Fab size="small" aria-label="Scroll Back To Top">
           <KeyboardArrowUpIcon />
