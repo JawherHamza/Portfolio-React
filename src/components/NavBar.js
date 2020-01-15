@@ -19,7 +19,6 @@ import Projects from "./Projects";
 import Passions from "./Passions";
 import Contact from "./Contact";
 import "../styles/NavBar.css";
-import Typing from 'react-typing-animation';
 import { FormattedMessage } from "react-intl";
 
 

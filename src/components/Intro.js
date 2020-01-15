@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { FormattedDate, FormattedMessage } from "react-intl";
 import "../styles/Intro.css";
 import {

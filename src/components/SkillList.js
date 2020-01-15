@@ -6,6 +6,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -23,7 +25,12 @@ export default function AlignItemsList({ skill }) {
         <List className={classes.root}>
             <ListItem alignItems="flex-start">
                 <ListItemAvatar>
-                    <Avatar alt="Remy Sharp" src={skill.picture} />
+                    <LazyLoadImage
+                        effect="blur"
+                        width="30px"
+                        height="30px"
+                        style={{ objectFit: "cover" }}
+                        src={skill.picture} />
                 </ListItemAvatar>
                 <ListItemText
                     primary={skill.skill}

@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import messagesen from '../messages/en.json'
 import { Grid, Container } from '@material-ui/core';
 import { FormattedMessage } from 'react-intl';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const useStyles = makeStyles(theme => ({
     passion: {
@@ -38,7 +40,10 @@ export default function VerticalTabs() {
                         {
                             passions.map((passion) =>
                                 <Grid item style={{ margin: '30px 0' }} >
-                                    <img className={classes.imgCircle} src={passion.pic} />
+                                    <LazyLoadImage
+                                        className={classes.imgCircle}
+                                        effect="blur"
+                                        src={passion.pic} />
                                     <h3>{passion.name}</h3>
                                 </Grid>
                             )

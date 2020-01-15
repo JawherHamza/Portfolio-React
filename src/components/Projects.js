@@ -9,6 +9,8 @@ import { FormattedMessage, useIntl } from 'react-intl';
 import LinkIcon from '@material-ui/icons/Link';
 import messagesfr from '../messages/fr.json'
 import messagesen from '../messages/en.json'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -47,7 +49,11 @@ export default function SingleLineGridList() {
                     <GridList className={classes.gridList} cols={2.6} cellHeight="280" spacing={8}>
                         {tileData.map(tile => (
                             <GridListTile key={tile.img}>
-                                <img src={tile.img} alt={tile.title} />
+                                <LazyLoadImage
+                                    effect="blur"
+                                    height="100%"
+                                    src={tile.img}
+                                    alt={tile.title} />
                                 <GridListTileBar
                                     title={tile.title}
                                     classes={{
