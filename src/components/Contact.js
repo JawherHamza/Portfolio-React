@@ -15,7 +15,7 @@ let sendMail = () => {
 
 export default function Contact() {
     return (
-        <div>
+        <div id="#contact">
             <Container>
                 <h1 class="title">
                     <FormattedMessage id="contact-title" />

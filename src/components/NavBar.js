@@ -99,6 +99,7 @@ export default function NavBar({ setLanguage }) {
             <a href="#skills"><FormattedMessage id="skills-title" /></a>&nbsp;|&nbsp;
             <a href="#projects"><FormattedMessage id="projects-title" /></a>&nbsp;|&nbsp;
             <a href="#passions"><FormattedMessage id="passion-title" /></a>&nbsp;&nbsp;
+            <a href="#contact">Contact</a>&nbsp;&nbsp;
               </div>
             </Hidden>
             <IconButton
