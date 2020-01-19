@@ -1,15 +1,27 @@
-import React from 'react';
+import React from "react";
 import { FormattedDate, FormattedMessage } from "react-intl";
 import "../styles/Intro.css";
 import {
-  Grid, Paper, Typography, CardMedia, CardActionArea, Card, CardContent, CardActions, Button, makeStyles, ButtonGroup, IconButton, Fade
+  Grid,
+  Paper,
+  Typography,
+  CardMedia,
+  CardActionArea,
+  Card,
+  CardContent,
+  CardActions,
+  Button,
+  makeStyles,
+  ButtonGroup,
+  IconButton,
+  Fade
 } from "@material-ui/core";
 import SaveIcon from "@material-ui/icons/Save";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import EmailIcon from '@material-ui/icons/Email';
+import EmailIcon from "@material-ui/icons/Email";
 
 const useStyles = makeStyles({
   card: {
@@ -17,7 +29,7 @@ const useStyles = makeStyles({
     textAlign: "left"
   },
   media: {
-    height: "400px",
+    height: "400px"
   }
 });
 
@@ -29,7 +41,8 @@ export default function Intro() {
         <Grid item xs={12} sm={12} md={8} lg={9}>
           <div className="text-intro">
             <h1>
-              <FormattedMessage id="hi" /><br />
+              <FormattedMessage id="hi" />
+              <br />
               <span style={{ color: "#525252" }}>
                 <FormattedMessage id="name" />
               </span>
@@ -40,34 +53,34 @@ export default function Intro() {
             <div className="dash"></div>
             <br />
             <Button href="https://www.linkedin.com/in/jawher-hamza/">
-              <IconButton aria-label="upload picture" component="span" >
+              <IconButton aria-label="upload picture" component="span">
                 <LinkedInIcon />
               </IconButton>
             </Button>
             <Button href="https://github.com/JawherHamza">
-              <IconButton aria-label="upload picture" component="span" >
+              <IconButton aria-label="upload picture" component="span">
                 <GitHubIcon />
               </IconButton>
             </Button>
             <Button href="https://www.facebook.com/jawhar.hamza">
-              <IconButton aria-label="upload picture" component="span" >
+              <IconButton aria-label="upload picture" component="span">
                 <FacebookIcon />
               </IconButton>
             </Button>
             <Button href="mailto:jawher_hamza@yahoo.fr">
-              <IconButton aria-label="upload picture" component="span" >
+              <IconButton aria-label="upload picture" component="span">
                 <EmailIcon />
               </IconButton>
             </Button>
           </div>
           <br />
           <br />
-          <Button variant="outlined" href="#cursus" className="show-more"  >
+          <Button variant="outlined" href="#cursus" className="show-more">
             <FormattedMessage id="show-more" />
             <ExpandMoreIcon />
           </Button>
         </Grid>
-        <Grid item style={{ width: "300px", margin: '0 auto' }}>
+        <Grid item style={{ width: "300px", margin: "0 auto" }}>
           <Fade in={true} timeout={{ enter: 2000, exit: 3000 }}>
             <Paper>
               <Card className={classes.card}>
@@ -94,17 +107,21 @@ export default function Intro() {
                       </strong>
                       : <bold>Hamza</bold>
                       <br></br>
-                      <strong>E-mail</strong> : <a href="mailto:jawher_hamza@yahoo.fr">jawher_hamza@yahoo.fr</a><br></br>
+                      <strong>E-mail</strong> :{" "}
+                      <a href="mailto:jawher_hamza@yahoo.fr">
+                        jawher_hamza@yahoo.fr
+                      </a>
+                      <br></br>
                       <strong>
                         <FormattedMessage id="birthday" />
                       </strong>
                       :
-                    <FormattedDate
+                      <FormattedDate
                         value={new Date("10/04/1997")}
                       ></FormattedDate>
                       <br></br>
                       <strong>Status</strong> :
-                    <FormattedMessage id="status" />
+                      <FormattedMessage id="status" />
                       <br></br>
                     </Typography>
                   </CardContent>
@@ -133,6 +150,6 @@ export default function Intro() {
           </Fade>
         </Grid>
       </Grid>
-    </div >
+    </div>
   );
 }
