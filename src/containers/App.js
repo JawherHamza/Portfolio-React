@@ -3,6 +3,8 @@ import { IntlProvider } from "react-intl";
 import messages_fr from "../messages/fr.json";
 import messages_en from "../messages/en.json";
 import NavBar from "../components/NavBar";
+import DarkModeToggle from "./DarkModeToggle";
+import "./style.scss";
 
 function App() {
   const [language, setLanguage] = useState(navigator.language.split(/[-_]/)[0]);
@@ -14,6 +16,9 @@ function App() {
 
   return (
     <IntlProvider locale={language} messages={messages[language]}>
+      <div className="navbar">
+        <DarkModeToggle />
+      </div>
       <div className="App">
         <NavBar setLanguage={setLanguage} />
       </div>

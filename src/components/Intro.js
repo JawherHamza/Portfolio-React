@@ -22,19 +22,22 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import EmailIcon from "@material-ui/icons/Email";
+import useDarkMode from "use-dark-mode";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const useStyles = makeStyles({
-  card: {
-    height: "100%",
-    textAlign: "left"
-  },
   media: {
     height: "400px"
   }
 });
 
 export default function Intro() {
+  const darkMode = useDarkMode(false);
   const classes = useStyles();
+  let myPic = darkMode.value
+    ? "https://lh3.googleusercontent.com/GJwUGMHOUhDX-Pj2glWAXS7vU85RGZassTwd-x7tkcr3zcxnTU6QdfI13b5s7wRl-7bgEl2M0la1APxNiiUCBE_i7WZ-yJx7cbdwp5-4p_cC-dU0Z4JffP_GhtFqHifP7puK86hAYGTK3vpCKYWWIYXFO9-FFhXBCeinifN7qhSBBM6_QCMi9G1lZU73JYB76LdM4pFDYWrb75JEpX1UBCoEBt4LYBXF7qIwHNda20wWFeEVJWAig3GEi6lqawf-u30g_Qnp1VZLgvsHOvCDIC3oQ85KXN8faLrCQr2kXFXqlz6XDa7ag9RLvd4DkHgl1CJOo7F9rl-UAT3G2PGXS5ew1ZOU1aGJ88eHS21tehMqTD9lTGOPMhGqxdobAcMaSk6ylsWsywh9lcqTb1WrdmjCtflTHW0bOG8DAxFOsjRmuOWVDbrwHQCv3-A5BMmlFMIYaCraPEum33qkL5UhQjwcbDNX2pApkWONlud6Xo61110WbpLJ4NQCr9D8h7dE3cAkx0MVphb9Y-Y33CCwyXLpMUysY2wyF861jF-8Hf6N6pgc-vd0Hm6SdRqfvrIJlsKiRxQVOrqkIu1m0TBsfD9rQn_7lv_kKoEa9o1Fvtc0lq6U3fSvBJ10hZiak1ykXgm-FAH5Vbqau3JTfTMyYp_YLeYmPTnSHKNOE2otJvEdxeXlQaMpCW8=w391-h625-no"
+    : "./jawherhamza.jpg";
   return (
     <div className="intro">
       <Grid container spacing={6} className="intro-body">
@@ -47,7 +50,7 @@ export default function Intro() {
                 <FormattedMessage id="name" />
               </span>
             </h1>
-            <h2 style={{ fontWeight: 100 }}>
+            <h2 style={{ fontWeight: 500 }}>
               <FormattedMessage id="intro" />
             </h2>
             <div className="dash"></div>
@@ -80,16 +83,19 @@ export default function Intro() {
             <ExpandMoreIcon />
           </Button>
         </Grid>
-        <Grid item style={{ width: "300px", margin: "0 auto" }}>
+        <Grid item style={{ width: "297px", margin: "0 auto" }}>
           <Fade in={true} timeout={{ enter: 2000, exit: 3000 }}>
             <Paper>
-              <Card className={classes.card}>
+              <Card className="card-intro">
                 <CardActionArea>
-                  <CardMedia
-                    className={classes.media}
-                    image="./jawherhamza.jpg"
-                    title="Jawher Hamza"
-                  />
+                  <CardMedia className={classes.media}>
+                    <LazyLoadImage
+                      effect="blur"
+                      height="100%"
+                      src={myPic}
+                      alt="Jawher Hamza"
+                    />
+                  </CardMedia>
                   <CardContent wrap="nowrap">
                     <Typography
                       variant="body2"

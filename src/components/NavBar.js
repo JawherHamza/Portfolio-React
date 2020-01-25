@@ -121,7 +121,6 @@ export default function NavBar({ setLanguage }) {
               onClick={event => {
                 setAnchorEl(event.currentTarget);
               }}
-              color="inherit"
             >
               <LanguageIcon />
             </IconButton>
@@ -179,8 +178,12 @@ export default function NavBar({ setLanguage }) {
       <Contact />
       <Footer />
       <ScrollTop>
-        <Fab size="small" aria-label="Scroll Back To Top">
-          <KeyboardArrowUpIcon />
+        <Fab
+          size="small"
+          aria-label="Scroll Back To Top"
+          style={{ zIndex: "99999" }}
+        >
+          <KeyboardArrowUpIcon style={{ zIndex: "99999" }} />
         </Fab>
       </ScrollTop>
     </React.Fragment>
