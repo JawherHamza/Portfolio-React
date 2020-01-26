@@ -1,7 +1,13 @@
+$third-color: rgb(235, 192, 0);
+
 body.light-mode {
     background-color: #fff !important;
     color: rgb(75, 75, 75) !important;
     transition: background-color 0.3s ease;
+
+    .intl-button {
+        color: #fff;
+    }
 }
 
 body.dark-mode {
@@ -9,38 +15,77 @@ body.dark-mode {
     color: #dfdfdf;
     transition: background-color 0.3s ease;
 
+    .footer {
+        background-color: #1f1f1f;
+    }
+
+    #contact {
+        .send-button {
+            color: $third-color;
+            border-color: $third-color;
+        }
+
+        .contact-input {
+            color: $third-color;
+        }
+
+        a {
+            color: $third-color;
+        }
+    }
+
     #skills {
         background-color: rgb(95, 95, 95);
         color: black;
+
+        .skill-item {
+            background-color: rgb(184, 184, 184);
+        }
+
+        .skills-tab {
+            background-color: rgb(184, 184, 184);
+        }
     }
 
     #passions {
         color: black;
-        background-color: rgb(95, 95, 95);
+        background-color: rgb(73, 73, 73);
     }
 
-    .vertical-timeline-element-content {
-        background-color: rgb(77, 77, 77);
+    #cursus {
+        .vertical-timeline-element-content {
+            background-color: rgb(77, 77, 77);
+        }
+
+        .vertical-timeline::before {
+            background: rgb(77, 77, 77);
+        }
+
+        .vertical-timeline-element-content {
+            box-shadow: 0 3px 0 rgb(46, 46, 46);
+            ;
+        }
     }
 
     .intro {
         background-image: url("https://wallpapercave.com/wp/wp2150699.jpg");
 
         .show-more {
-            color: rgb(235, 192, 0);
-            border-color: rgb(235, 192, 0);
+            color: $third-color;
+            border-color: $third-color;
         }
 
         span {
-            color: rgb(235, 192, 0);
+            color: $third-color;
         }
 
         .card-intro {
-            background-color: rgb(124, 124, 124);
+            background-color: rgb(170, 170, 170);
+
         }
 
         .intl-button {
-            color: black
+            color: black;
         }
     }
 
@@ -61,12 +106,11 @@ body.dark-mode {
     z-index: 2;
     position: fixed;
     bottom: 0;
-    width: 250px;
-    border-radius: 20px;
+    width: 180px;
+    border-radius: 12px;
     display: flex;
     background-color: #adadad;
-    padding: 5px;
-    margin: 5px;
+    margin: 8px;
 }
 
 .toggle-control {

@@ -22,7 +22,7 @@ export default function AlignItemsList({ skill }) {
   const classes = useStyles();
   return (
     <List className={classes.root}>
-      <ListItem alignItems="flex-start">
+      <ListItem alignItems="flex-start" className="skill-item">
         <ListItemAvatar>
           <LazyLoadImage
             effect="blur"

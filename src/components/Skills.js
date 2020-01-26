@@ -73,7 +73,7 @@ export default function VerticalTabs({ translationfile }) {
         <h1 class="title">
           <FormattedMessage id="skills-title" />
         </h1>
-        <div className={classes.root}>
+        <div className={classes.root + " skills-tab"}>
           <Tabs
             orientation="vertical"
             variant="scrollable"

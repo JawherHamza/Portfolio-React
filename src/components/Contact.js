@@ -47,6 +47,7 @@ export default function Contact() {
                     id="name"
                     placeholder={placeholder}
                     required
+                    className="contact-input"
                   />
                 )}
               </FormattedMessage>
@@ -59,12 +60,13 @@ export default function Contact() {
                     id="phone"
                     placeholder={placeholder}
                     required
+                    className="contact-input"
                   />
                 )}
               </FormattedMessage>
               <FormattedMessage id="your-message">
                 {placeholder => (
-                  <TextField
+                  <Input
                     style={{ margin: "10px 0" }}
                     placeholder={placeholder}
                     fullWidth={true}
@@ -73,10 +75,12 @@ export default function Contact() {
                     rowsMax={6}
                     required
                     id="message"
+                    className="contact-input"
                   />
                 )}
               </FormattedMessage>
               <Button
+                className="send-button"
                 variant="outlined"
                 style={{ float: "right", margin: "10px" }}
                 onClick={() => {
