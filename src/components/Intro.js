@@ -55,17 +55,29 @@ export default function Intro() {
             </h2>
             <div className="dash"></div>
             <br />
-            <Button href="https://www.linkedin.com/in/jawher-hamza/">
+            <Button
+              onClick={() => {
+                window.open("https://www.linkedin.com/in/jawher-hamza/");
+              }}
+            >
               <IconButton aria-label="upload picture" component="span">
                 <LinkedInIcon />
               </IconButton>
             </Button>
-            <Button href="https://github.com/JawherHamza">
+            <Button
+              onClick={() => {
+                window.open("https://github.com/JawherHamza");
+              }}
+            >
               <IconButton aria-label="upload picture" component="span">
                 <GitHubIcon />
               </IconButton>
             </Button>
-            <Button href="https://www.facebook.com/jawhar.hamza">
+            <Button
+              onClick={() => {
+                window.open("https://www.facebook.com/jawhar.hamza");
+              }}
+            >
               <IconButton aria-label="upload picture" component="span">
                 <FacebookIcon />
               </IconButton>
