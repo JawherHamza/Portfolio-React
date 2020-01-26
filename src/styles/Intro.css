@@ -26,6 +26,10 @@
 .show-more {
     bottom: 0;
     position: absolute;
+    background-color: #525252;
+    color: rgb(235, 192, 0) !important;
+    border-color: rgb(235, 192, 0) !important;
+    background-color: #27272780 !important;
 }
 
 a {
