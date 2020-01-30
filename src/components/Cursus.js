@@ -10,7 +10,9 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 import { FormattedMessage, useIntl } from "react-intl";
-import { Container } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Cursus() {
   let cursus =
@@ -40,12 +42,27 @@ export default function Cursus() {
                   icon={<WorkIcon />}
                 >
                   <div className={i === 0 && "current"}>
-                    <h3 className="vertical-timeline-element-title">
-                      {cur.title}
-                    </h3>
-                    <h4 className="vertical-timeline-element-subtitle">
-                      {cur.place}
-                    </h4>
+                    <Grid container spacing={1}>
+                      <Grid xs={9} sm={10} item>
+                        <h3 className="vertical-timeline-element-title">
+                          {cur.title}
+                        </h3>
+                        <h4 className="vertical-timeline-element-subtitle">
+                          {cur.place}
+                        </h4>
+                      </Grid>
+                      <Grid item xs={3} sm={2}>
+                        <LazyLoadImage
+                          style={{
+                            borderRadius: "50%",
+                            width: "100%"
+                          }}
+                          effect="blur"
+                          src={cur.pic}
+                        />
+                      </Grid>
+                    </Grid>
+
                     <ul style={{ textAlign: "left" }}>
                       {cur.desc.map(des => {
                         return <li>{des}</li>;
@@ -66,13 +83,27 @@ export default function Cursus() {
                   icon={<SchoolIcon />}
                 >
                   <div className={i === 0 && "current-scol"}>
-                    <h3 className="vertical-timeline-element-title">
-                      {scol.title}
-                    </h3>
-                    <br></br>
-                    <h4 className="vertical-timeline-element-subtitle">
-                      {scol.place}
-                    </h4>
+                    <Grid container spacing={1}>
+                      <Grid xs={9} sm={10} item>
+                        <h3 className="vertical-timeline-element-title">
+                          {scol.title}
+                        </h3>
+                        <br></br>
+                        <h4 className="vertical-timeline-element-subtitle">
+                          {scol.place}
+                        </h4>
+                      </Grid>
+                      <Grid item xs={3} sm={2}>
+                        <LazyLoadImage
+                          style={{
+                            borderRadius: "50%",
+                            width: "100%"
+                          }}
+                          effect="blur"
+                          src={scol.pic}
+                        />
+                      </Grid>
+                    </Grid>
                   </div>
                 </VerticalTimelineElement>
               );

@@ -41,7 +41,7 @@ export default function Intro() {
   return (
     <div className="intro">
       <Grid container spacing={6} className="intro-body">
-        <Grid item xs={12} sm={12} md={8} lg={9}>
+        <Grid item xs={12} sm={7} md={8} lg={9} xl={10}>
           <div className="text-intro">
             <h1>
               <FormattedMessage id="hi" />
@@ -95,7 +95,7 @@ export default function Intro() {
             <ExpandMoreIcon />
           </Button>
         </Grid>
-        <Grid item style={{ width: "297px", margin: "0 auto" }}>
+        <Grid item sm={5} md={4} lg={3} xl={2}>
           <Fade in={true} timeout={{ enter: 2000, exit: 3000 }}>
             <Paper>
               <Card className="card-intro">
@@ -104,6 +104,8 @@ export default function Intro() {
                     <LazyLoadImage
                       effect="blur"
                       height="100%"
+                      width="100%"
+                      style={{ objectFit: "cover" }}
                       src={myPic}
                       alt="Jawher Hamza"
                     />

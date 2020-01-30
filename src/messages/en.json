@@ -1,312 +1,336 @@
 {
-    "download-cv-french": "CV (French)",
-    "download-cv-english": "CV (English)",
-    "status": "Front End Web Developer and Consultant at Sopra HR Software.",
-    "firstname": "Firstname",
-    "lastname": "Lastname",
-    "birthday": "Date of Birth",
-    "hi": "HI !",
-    "name": "I'M JAWHER HAMZA",
-    "intro": "I'm related to web development. I follow-up on the most recent changes in web development and i do it with passion. I set up this site in order to expose my career and share my passion.",
-    "show-more": "Show More",
-    "cursus-title": "Cursus",
-    "skills-title": "Skills",
-    "visit": "Visit the Project",
-    "used-tech": "Used Technologies",
-    "projects-title": "Projects",
-    "contact-title": "Contact",
-    "get-in-touch": "Do not hesitate to get in touch with me if you have any request",
-    "post-a-message": "Post a message",
-    "nameplaceholder": "Name",
-    "phone": "Phone",
-    "your-message": "Your message",
-    "address": "Address",
-    "send": "Send",
-    "cursus": {
-        "cursus1": {
-            "date": "07 / 2019 -> present",
-            "desc": [
-                "Front End Developer (React JS) responsible for development and usability and interaction testing of Sopra HR Software web solutions.",
-                "Specification of needs and development of several new functionalities for the optimization of web solutions.",
-                "Customer Service and Customer Experience Consultant",
-                "Maintenance of the final product deployed for the customer."
-            ],
-            "place": "Sopra HR Software",
-            "title": "Front End Developer and Consultant"
-        },
-        "cursus2": {
-            "date": "01 / 2019 -> 06 / 2019",
-            "desc": [
-                "Creation of a responsive web platform (Alternative de Airbnb) which offers short-term property rental services in Senegal.",
-                "Front End Developer JavaScript (Vue JS).",
-                "Project design and usability and interaction test manager.",
-                "Definition of needs and functionalities to develop for the client."
-            ],
-            "place": "HMMG",
-            "title": "Intern / Front End Developer"
-        },
-        "cursus3": {
-            "date": "01 / 2018 -> 02 / 2018",
-            "desc": ["Build a restaurant discovery application using ASP.NET Core"],
-            "place": "PeakSource",
-            "title": "Intern"
-        }
+  "download-cv-french": "CV (French)",
+  "download-cv-english": "CV (English)",
+  "status": "Front End Web Developer and Consultant at Sopra HR Software.",
+  "firstname": "Firstname",
+  "lastname": "Lastname",
+  "birthday": "Date of Birth",
+  "hi": "HI !",
+  "name": "I'M JAWHER HAMZA",
+  "intro": "I'm related to web development. I follow-up on the most recent changes in web development and i do it with passion. I set up this site in order to expose my career and share my passion.",
+  "show-more": "Show More",
+  "cursus-title": "Cursus",
+  "skills-title": "Skills",
+  "visit": "Visit the Project",
+  "used-tech": "Used Technologies",
+  "projects-title": "Projects",
+  "contact-title": "Contact",
+  "get-in-touch": "Do not hesitate to get in touch with me if you have any request",
+  "post-a-message": "Post a message",
+  "nameplaceholder": "Name",
+  "phone": "Phone",
+  "your-message": "Your message",
+  "address": "Address",
+  "send": "Send",
+  "cursus": {
+    "cursus0": {
+      "date": "02 / 2020 -> present",
+      "desc": ["Full Stack JavaScript Developer"],
+      "place": "Vneuron",
+      "title": "FullStack Developer",
+      "pic": "https://www.tunisiemploi.com.tn/wp-content/uploads/2018/08/vneuron-250x250.jpg"
     },
-    "scolaire": {
-        "scolaire1": {
-            "date": "2019 -> present",
-            "place": "TEK-UP",
-            "title": "Engineer's degree, Software Engineering"
-        },
-        "scolaire2": {
-            "date": "2016 -> 2019",
-            "place": "Higher Institute of Technological Studies of Radès",
-            "title": "Licence, Information Systems Development"
-        },
-        "scolaire3": {
-            "date": "2015/2016",
-            "place": "Farhat Hached Rades High School",
-            "title": "Baccalaureate, Technical Sciences"
-        }
+    "cursus1": {
+      "date": "07 / 2019 -> 02 / 2020",
+      "desc": [
+        "Front End Developer (React JS) responsible for development and usability and interaction testing of Sopra HR Software web solutions.",
+        "Specification of needs and development of several new functionalities for the optimization of web solutions.",
+        "Customer Service and Customer Experience Consultant",
+        "Maintenance of the final product deployed for the customer."
+      ],
+      "place": "Sopra HR Software",
+      "title": "Front End Developer and Consultant",
+      "pic": "https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1502505797/utvqynznsslu4otq1nll.png"
     },
-    "skills": {
-        "front-end": {
-            "skillTitle": "Front End",
-            "list": [{
-                    "skill": "JavaScript",
-                    "sub": "ES5/6",
-                    "picture": "https://blog.savoirfairelinux.com/fr-ca/wp-content/uploads/2017/12/javascript.png"
-                },
-                {
-                    "skill": "React",
-                    "sub": "Redux / Next",
-                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
-                },
-                {
-                    "skill": "VueJS",
-                    "sub": "Vuex / NuxtJS",
-                    "picture": "https://fr.vuejs.org/images/logo.png"
-                },
-                {
-                    "skill": "HTML5 / CSS 3",
-                    "picture": "http://www.webat25.org/wp-content/uploads/2019/02/apprendre-html-et-css.jpg"
-                },
-                {
-                    "skill": "UI Librairies",
-                    "sub": "Material UI, Element UI, Bootstrap",
-                    "picture": "https://cdn.dribbble.com/users/2162265/screenshots/5816007/daily_ui_ui_logo.png"
-                },
-                {
-                    "skill": "SASS / LESS",
-                    "picture": "https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
-                },
-                {
-                    "skill": "JSON / XML",
-                    "picture": "https://daoinsights.com/wp-content/uploads/2015/08/json-logo.png"
-                },
-                {
-                    "skill": "jQuery",
-                    "picture": "https://joykal.com/wp-content/uploads/2019/09/jquery.png"
-                }
-            ]
-        },
-        "back-end": {
-            "skillTitle": "Back End",
-            "list": [{
-                    "skill": "Node JS",
-                    "sub": "ExpressJS",
-                    "picture": "https://www.apollo-formation.com/wp-content/uploads/Node.js_logo.svg_-300x300.png"
-                },
-                {
-                    "skill": "ASP.NET Core",
-                    "sub": "Entity FrameWork",
-                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"
-                },
-                {
-                    "skill": "J2EE",
-                    "picture": "https://www.apollo-formation.com/wp-content/uploads/jee-282x300.png"
-                },
-                {
-                    "skill": "PHP",
-                    "picture": "https://img.pngio.com/php-transparent-png-png-mart-php-png-2048_1024.png"
-                }
-            ]
-        },
-        "Gestion des versions et de projet": {
-            "skillTitle": "Version and project management",
-            "list": [{
-                    "skill": "GIT",
-                    "sub": "Github, GitLab, BitBucket",
-                    "picture": "https://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
-                },
-                {
-                    "skill": "SCRUM",
-                    "picture": "https://sitefarm.ucdavis.edu/sites/g/files/dgvnsk511/files/styles/sf_landscape_16x9/public/images/article/oie_qU9LtOeBPynx.png?h=23325160&itok=i8YyZb0m"
-                },
-                {
-                    "skill": "Trello",
-                    "picture": "https://logodix.com/logo/1143310.png"
-                },
-                {
-                    "skill": "Slack",
-                    "picture": "https://i.pinimg.com/originals/67/9c/0c/679c0c0f4b6818fa0d1bd540658a1d8f.png"
-                },
-                {
-                    "skill": "Microsoft Teams",
-                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
-                },
-                {
-                    "skill": "JIRA",
-                    "picture": "https://www.supinfo.com/articles/resources/164203/578/0.png"
-                }
-            ]
-        },
-        "Test & Automatisation": {
-            "skillTitle": "Test & Automation",
-            "list": [{
-                    "skill": "Selenium",
-                    "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
-                },
-                {
-                    "skill": "Jest",
-                    "picture": "https://cdn.freebiesupply.com/logos/thumbs/1x/jest-logo.png"
-                },
-                {
-                    "skill": "jUnit",
-                    "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
-                }
-            ]
-        },
-        "Base de données": {
-            "skillTitle": "Database",
-            "list": [{
-                    "skill": "PL/SQL",
-                    "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
-                },
-                {
-                    "skill": "SQL",
-                    "picture": "https://cdn.freebiesupply.com/logos/thumbs/1x/jest-logo.png"
-                },
-                {
-                    "skill": "Microsoft Access",
-                    "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
-                },
-                {
-                    "skill": "Oracle SQL developer",
-                    "picture": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Oracle_SQL_Developer_logo.svg/1200px-Oracle_SQL_Developer_logo.svg.png"
-                },
-                {
-                    "skill": "MySQL",
-                    "picture": "https://www.ideematic.com/wp-content/uploads/2018/02/mysql.png"
-                },
-                {
-                    "skill": "Hibernate",
-                    "picture": "https://www.bitdegree.org/tutorials/wp-content/uploads/2018/12/hibernate-interview-questions-logo.png"
-                }
-            ]
-        },
-        "Applications de bureau": {
-            "skillTitle": "Desktop Applications",
-            "list": [{
-                    "skill": "Windows Forms ( C# / .NET)",
-                    "picture": "https://www.apollo-formation.com/wp-content/uploads/Visual_Studio_2013_Logo.svg_-290x300.png"
-                },
-                {
-                    "skill": "SWING ( JAVA )",
-                    "picture": "https://www.barmaje.com/images/java_swing_logo.png"
-                }
-            ]
-        },
-        "Autres": {
-            "skillTitle": "More",
-            "list": [{
-                    "skill": "Android",
-                    "picture": "https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png"
-                },
-                {
-                    "skill": "Axios",
-                    "picture": "https://avatars0.githubusercontent.com/u/3382421?s=400&v=4"
-                },
-                {
-                    "skill": "Postman",
-                    "picture": "https://www.getpostman.com/img/v2/logo-glyph.png"
-                },
-                {
-                    "skill": "Bash / Shell / PowerShell",
-                    "picture": "https://3.bp.blogspot.com/-a7jPVdFk9Hw/W_XeTJX6JyI/AAAAAAAAC2c/HCtxP0wSSs0wEMKJOYq7pivEJaSVin92gCLcBGAs/s1600/powershell.png"
-                },
-                {
-                    "skill": "UML",
-                    "picture": "http://fortimelp.fr/250-large_default/formation-uml-analyse-et-conception-4-jours.jpg"
-                },
-                {
-                    "skill": "ESLint",
-                    "picture": "https://rawgit.com/mattpjohnson/VS-Code-Web-Powerpack/master/docs/es-lint.png"
-                },
-                {
-                    "skill": "C",
-                    "picture": "https://ladghemsaid.github.io/TP3/c.png"
-                },
-                {
-                    "skill": "COBOL",
-                    "picture": "https://www.supinfo.com/articles/resources/208289/5774/0.png"
-                },
-                {
-                    "skill": "Putty / FileZilla",
-                    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png"
-                },
-                {
-                    "skill": "NPM / Yarn / Bower",
-                    "picture": "https://miro.medium.com/max/900/1*9W9ar6kWg8RTB3vYYwti-w.png"
-                },
-                {
-                    "skill": "Docker",
-                    "picture": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
-                },
-                {
-                    "skill": "Netlify",
-                    "picture": "https://temudokter.netlify.com/static/media/netlify.92b6c228.png"
-                }
-            ]
-        }
+    "cursus2": {
+      "date": "01 / 2019 -> 06 / 2019",
+      "desc": [
+        "Creation of a responsive web platform (Alternative de Airbnb) which offers short-term property rental services in Senegal.",
+        "Front End Developer JavaScript (Vue JS).",
+        "Project design and usability and interaction test manager.",
+        "Definition of needs and functionalities to develop for the client."
+      ],
+      "place": "HMMG",
+      "title": "Intern / Front End Developer",
+      "pic": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/p960x960/80696136_105023297668888_1729984230936543232_o.png?_nc_cat=100&_nc_ohc=G4z4OkV7QrsAX8vHAmf&_nc_ht=scontent.ftun3-1.fna&oh=dbf66f6664fd2b79e2e7ee29c2b00ea6&oe=5E911021"
     },
-    "tileData": [{
-            "img": "./Cometrip.PNG",
-            "title": "ComeTrip",
-            "desc": "Creation of a web platform (Alternative de Airbnb) which offers short-term property rental services in Senegal.",
-            "link": "https://cometrip.sn/"
+    "cursus3": {
+      "date": "01 / 2018 -> 02 / 2018",
+      "desc": ["Build a restaurant discovery application using ASP.NET Core"],
+      "place": "PeakSource",
+      "title": "Intern",
+      "pic": "data:image/png;base64,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"
+    }
+  },
+  "scolaire": {
+    "scolaire1": {
+      "date": "2019 -> present",
+      "place": "TEK-UP University",
+      "title": "Engineer's degree, Software Engineering",
+      "pic": "http://shops.tn/wp-content/uploads/2019/02/TEK-UP-University.jpg"
+    },
+    "scolaire2": {
+      "date": "2016 -> 2019",
+      "place": "Higher Institute of Technological Studies of Radès",
+      "title": "Licence, Information Systems Development",
+      "pic": "http://www.examanet.net/images/logo/logo-iset-rades.png"
+    },
+    "scolaire3": {
+      "date": "2015/2016",
+      "place": "Farhat Hached Rades High School",
+      "title": "Baccalaureate, Technical Sciences",
+      "pic": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/11031137_1609535735945490_2515852752207988898_n.jpg?_nc_cat=111&_nc_ohc=AFN-ODM4h2wAX_nkkKd&_nc_ht=scontent.ftun3-1.fna&oh=a89809beb0769cc1cf9c46e5acdce775&oe=5E968C9E"
+    }
+  },
+  "skills": {
+    "front-end": {
+      "skillTitle": "Front End",
+      "list": [
+        {
+          "skill": "JavaScript",
+          "sub": "ES5/6",
+          "picture": "https://blog.savoirfairelinux.com/fr-ca/wp-content/uploads/2017/12/javascript.png"
         },
         {
-            "img": "./GP4You.PNG",
-            "title": "GP4You",
-            "desc": "HR Management web solution"
+          "skill": "React",
+          "sub": "Redux / Next",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
         },
         {
-            "img": "./EnglishPortfolio.PNG",
-            "title": "English Portfolio",
-            "link": "https://jawherhamzaen.netlify.com/"
+          "skill": "VueJS",
+          "sub": "Vuex / NuxtJS",
+          "picture": "https://fr.vuejs.org/images/logo.png"
         },
         {
-            "img": "./FrenchPortfolio.PNG",
-            "title": "French Portfolio",
-            "link": "https://jawherhamza.github.io/"
+          "skill": "HTML5 / CSS 3",
+          "picture": "http://www.webat25.org/wp-content/uploads/2019/02/apprendre-html-et-css.jpg"
         },
         {
-            "img": "https://www.memoireonline.com/02/12/5343/Gestion-des-patients-dans-une-clinique-en-Java97.png",
-            "title": "Management of medical appointments"
+          "skill": "UI Librairies",
+          "sub": "Material UI, Element UI, Bootstrap",
+          "picture": "https://cdn.dribbble.com/users/2162265/screenshots/5816007/daily_ui_ui_logo.png"
         },
         {
-            "img": "https://jawherhamzaen.netlify.com/assets/files/img/Portfolio/R2.png",
-            "title": "FastFood",
-            "desc": "Restaurant Discovery Web Application"
+          "skill": "SASS / LESS",
+          "picture": "https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
+        },
+        {
+          "skill": "JSON / XML",
+          "picture": "https://daoinsights.com/wp-content/uploads/2015/08/json-logo.png"
+        },
+        {
+          "skill": "jQuery",
+          "picture": "https://joykal.com/wp-content/uploads/2019/09/jquery.png"
         }
-    ],
-    "passion-title": "Passions",
-    "passions": [{
-        "name": "Liverpool Football Club",
-        "pic": "https://d.newsweek.com/en/full/1527584/jurgen-klopp-liverpool-uefa-champions-league.jpg"
-    }, {
-        "name": "New Tech",
-        "pic": "https://cdn.mos.cms.futurecdn.net/8bEfxy8skS6fUVZnfaLWxj.jpg"
-    }]
+      ]
+    },
+    "back-end": {
+      "skillTitle": "Back End",
+      "list": [
+        {
+          "skill": "Node JS",
+          "sub": "ExpressJS",
+          "picture": "https://www.apollo-formation.com/wp-content/uploads/Node.js_logo.svg_-300x300.png"
+        },
+        {
+          "skill": "ASP.NET Core",
+          "sub": "Entity FrameWork",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"
+        },
+        {
+          "skill": "J2EE",
+          "picture": "https://www.apollo-formation.com/wp-content/uploads/jee-282x300.png"
+        },
+        {
+          "skill": "PHP",
+          "picture": "https://img.pngio.com/php-transparent-png-png-mart-php-png-2048_1024.png"
+        }
+      ]
+    },
+    "Gestion des versions et de projet": {
+      "skillTitle": "Version and project management",
+      "list": [
+        {
+          "skill": "GIT",
+          "sub": "Github, GitLab, BitBucket",
+          "picture": "https://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
+        },
+        {
+          "skill": "SCRUM",
+          "picture": "https://sitefarm.ucdavis.edu/sites/g/files/dgvnsk511/files/styles/sf_landscape_16x9/public/images/article/oie_qU9LtOeBPynx.png?h=23325160&itok=i8YyZb0m"
+        },
+        {
+          "skill": "Trello",
+          "picture": "https://logodix.com/logo/1143310.png"
+        },
+        {
+          "skill": "Slack",
+          "picture": "https://i.pinimg.com/originals/67/9c/0c/679c0c0f4b6818fa0d1bd540658a1d8f.png"
+        },
+        {
+          "skill": "Microsoft Teams",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+        },
+        {
+          "skill": "JIRA",
+          "picture": "https://www.supinfo.com/articles/resources/164203/578/0.png"
+        }
+      ]
+    },
+    "Test & Automatisation": {
+      "skillTitle": "Test & Automation",
+      "list": [
+        {
+          "skill": "Selenium",
+          "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
+        },
+        {
+          "skill": "Jest",
+          "picture": "https://cdn.freebiesupply.com/logos/thumbs/1x/jest-logo.png"
+        },
+        {
+          "skill": "jUnit",
+          "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
+        }
+      ]
+    },
+    "Base de données": {
+      "skillTitle": "Database",
+      "list": [
+        {
+          "skill": "PL/SQL",
+          "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
+        },
+        {
+          "skill": "SQL",
+          "picture": "https://cdn.freebiesupply.com/logos/thumbs/1x/jest-logo.png"
+        },
+        {
+          "skill": "Microsoft Access",
+          "picture": "https://www.opencodez.com/wp-content/uploads/2019/04/Junit-1.png"
+        },
+        {
+          "skill": "Oracle SQL developer",
+          "picture": "https://upload.wikimedia.org/wikipedia/fr/thumb/6/68/Oracle_SQL_Developer_logo.svg/1200px-Oracle_SQL_Developer_logo.svg.png"
+        },
+        {
+          "skill": "MySQL",
+          "picture": "https://www.ideematic.com/wp-content/uploads/2018/02/mysql.png"
+        },
+        {
+          "skill": "Hibernate",
+          "picture": "https://www.bitdegree.org/tutorials/wp-content/uploads/2018/12/hibernate-interview-questions-logo.png"
+        }
+      ]
+    },
+    "Applications de bureau": {
+      "skillTitle": "Desktop Applications",
+      "list": [
+        {
+          "skill": "Windows Forms ( C# / .NET)",
+          "picture": "https://www.apollo-formation.com/wp-content/uploads/Visual_Studio_2013_Logo.svg_-290x300.png"
+        },
+        {
+          "skill": "SWING ( JAVA )",
+          "picture": "https://www.barmaje.com/images/java_swing_logo.png"
+        }
+      ]
+    },
+    "Autres": {
+      "skillTitle": "More",
+      "list": [
+        {
+          "skill": "Android",
+          "picture": "https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png"
+        },
+        {
+          "skill": "Axios",
+          "picture": "https://avatars0.githubusercontent.com/u/3382421?s=400&v=4"
+        },
+        {
+          "skill": "Postman",
+          "picture": "https://www.getpostman.com/img/v2/logo-glyph.png"
+        },
+        {
+          "skill": "Bash / Shell / PowerShell",
+          "picture": "https://3.bp.blogspot.com/-a7jPVdFk9Hw/W_XeTJX6JyI/AAAAAAAAC2c/HCtxP0wSSs0wEMKJOYq7pivEJaSVin92gCLcBGAs/s1600/powershell.png"
+        },
+        {
+          "skill": "UML",
+          "picture": "http://fortimelp.fr/250-large_default/formation-uml-analyse-et-conception-4-jours.jpg"
+        },
+        {
+          "skill": "ESLint",
+          "picture": "https://rawgit.com/mattpjohnson/VS-Code-Web-Powerpack/master/docs/es-lint.png"
+        },
+        {
+          "skill": "C",
+          "picture": "https://ladghemsaid.github.io/TP3/c.png"
+        },
+        {
+          "skill": "COBOL",
+          "picture": "https://www.supinfo.com/articles/resources/208289/5774/0.png"
+        },
+        {
+          "skill": "Putty / FileZilla",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png"
+        },
+        {
+          "skill": "NPM / Yarn / Bower",
+          "picture": "https://miro.medium.com/max/900/1*9W9ar6kWg8RTB3vYYwti-w.png"
+        },
+        {
+          "skill": "Docker",
+          "picture": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
+        },
+        {
+          "skill": "Netlify",
+          "picture": "https://temudokter.netlify.com/static/media/netlify.92b6c228.png"
+        }
+      ]
+    }
+  },
+  "tileData": [
+    {
+      "img": "./Cometrip.PNG",
+      "title": "ComeTrip",
+      "desc": "Creation of a web platform (Alternative de Airbnb) which offers short-term property rental services in Senegal.",
+      "link": "https://cometrip.sn/"
+    },
+    {
+      "img": "./GP4You.PNG",
+      "title": "GP4You",
+      "desc": "HR Management web solution"
+    },
+    {
+      "img": "./EnglishPortfolio.PNG",
+      "title": "English Portfolio",
+      "link": "https://jawherhamzaen.netlify.com/"
+    },
+    {
+      "img": "./FrenchPortfolio.PNG",
+      "title": "French Portfolio",
+      "link": "https://jawherhamza.github.io/"
+    },
+    {
+      "img": "https://www.memoireonline.com/02/12/5343/Gestion-des-patients-dans-une-clinique-en-Java97.png",
+      "title": "Management of medical appointments"
+    },
+    {
+      "img": "https://jawherhamzaen.netlify.com/assets/files/img/Portfolio/R2.png",
+      "title": "FastFood",
+      "desc": "Restaurant Discovery Web Application"
+    }
+  ],
+  "passion-title": "Passions",
+  "passions": [
+    {
+      "name": "Liverpool Football Club",
+      "pic": "https://d.newsweek.com/en/full/1527584/jurgen-klopp-liverpool-uefa-champions-league.jpg"
+    },
+    {
+      "name": "New Tech",
+      "pic": "https://cdn.mos.cms.futurecdn.net/8bEfxy8skS6fUVZnfaLWxj.jpg"
+    }
+  ]
 }

@@ -118,6 +118,7 @@ export default function NavBar({ setLanguage }) {
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
+              className="intl-button"
               onClick={event => {
                 setAnchorEl(event.currentTarget);
               }}

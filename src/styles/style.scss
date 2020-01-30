@@ -6,7 +6,11 @@ body.light-mode {
     transition: background-color 0.3s ease;
 
     .intl-button {
-        color: #fff;
+        color: $third-color;
+    }
+
+    .text-intro {
+        background-color: rgba(255, 255, 255, 0.733);
     }
 }
 
@@ -79,9 +83,11 @@ body.dark-mode {
 
         }
 
-        .intl-button {
-            color: black;
-        }
+
+    }
+
+    .intl-button {
+        color: $third-color;
     }
 
     .navbar {
@@ -96,6 +102,8 @@ body.dark-mode {
         }
     }
 }
+
+
 
 .navbar {
     z-index: 2;

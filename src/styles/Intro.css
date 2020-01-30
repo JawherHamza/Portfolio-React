@@ -1,5 +1,5 @@
 .intro {
-    background-image: url("https://assets.bouldercounty.org/wp-content/uploads/2017/03/snow-removal-deep.jpg");
+    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/snow/road-through-trees-covered-in-snow-and-ice.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,8 @@
 
 .text-intro {
     text-align: left;
-    max-width: 70%;
+    padding: 20px;
+    border-radius: 3%;
 }
 
 .dash {
