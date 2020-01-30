@@ -68,7 +68,13 @@ body.dark-mode {
     }
 
     .intro {
-        background-image: url("https://wallpapercave.com/wp/wp2150699.jpg");
+        background-image: url("https://wallpaperaccess.com/full/279559.jpg");
+
+        .text-intro {
+            text-align: left;
+            padding: 20px;
+            background-color: rgba(92, 91, 91, 0.541)
+        }
 
         span {
             color: $third-color;

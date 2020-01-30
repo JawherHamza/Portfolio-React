@@ -35,18 +35,16 @@ const useStyles = makeStyles({
 export default function Intro() {
   const darkMode = useDarkMode(false);
   const classes = useStyles();
-  let myPic = darkMode.value
-    ? "https://lh3.googleusercontent.com/GJwUGMHOUhDX-Pj2glWAXS7vU85RGZassTwd-x7tkcr3zcxnTU6QdfI13b5s7wRl-7bgEl2M0la1APxNiiUCBE_i7WZ-yJx7cbdwp5-4p_cC-dU0Z4JffP_GhtFqHifP7puK86hAYGTK3vpCKYWWIYXFO9-FFhXBCeinifN7qhSBBM6_QCMi9G1lZU73JYB76LdM4pFDYWrb75JEpX1UBCoEBt4LYBXF7qIwHNda20wWFeEVJWAig3GEi6lqawf-u30g_Qnp1VZLgvsHOvCDIC3oQ85KXN8faLrCQr2kXFXqlz6XDa7ag9RLvd4DkHgl1CJOo7F9rl-UAT3G2PGXS5ew1ZOU1aGJ88eHS21tehMqTD9lTGOPMhGqxdobAcMaSk6ylsWsywh9lcqTb1WrdmjCtflTHW0bOG8DAxFOsjRmuOWVDbrwHQCv3-A5BMmlFMIYaCraPEum33qkL5UhQjwcbDNX2pApkWONlud6Xo61110WbpLJ4NQCr9D8h7dE3cAkx0MVphb9Y-Y33CCwyXLpMUysY2wyF861jF-8Hf6N6pgc-vd0Hm6SdRqfvrIJlsKiRxQVOrqkIu1m0TBsfD9rQn_7lv_kKoEa9o1Fvtc0lq6U3fSvBJ10hZiak1ykXgm-FAH5Vbqau3JTfTMyYp_YLeYmPTnSHKNOE2otJvEdxeXlQaMpCW8=w391-h625-no"
-    : "./jawherhamza.jpg";
+  let myPic = darkMode.value ? "./jawherhamzadark.jpg" : "./jawherhamza.jpg";
   return (
     <div className="intro">
       <Grid container spacing={6} className="intro-body">
         <Grid item xs={12} sm={7} md={8} lg={9} xl={10}>
           <div className="text-intro">
             <h1>
-              <FormattedMessage id="hi" />
+              <FormattedMessage id="hi" />s
               <br />
-              <span style={{ color: "#525252" }}>
+              <span>
                 <FormattedMessage id="name" />
               </span>
             </h1>

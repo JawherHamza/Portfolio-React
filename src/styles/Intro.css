@@ -1,5 +1,5 @@
 .intro {
-    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/snow/road-through-trees-covered-in-snow-and-ice.jpg");
+    background-image: url("https://wallpaperaccess.com/full/279547.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,14 +15,13 @@
 .text-intro {
     text-align: left;
     padding: 20px;
-    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .dash {
-    width: 8%;
+    width: 10%;
     border-top: 3px solid rgb(235, 192, 0);
 }
-
 
 .show-more {
     bottom: 0;
