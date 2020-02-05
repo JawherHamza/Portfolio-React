@@ -42,7 +42,7 @@ export default function Intro() {
         <Grid item xs={12} sm={7} md={8} lg={9} xl={10}>
           <div className="text-intro">
             <h1>
-              <FormattedMessage id="hi" />s
+              <FormattedMessage id="hi" />
               <br />
               <span>
                 <FormattedMessage id="name" />
