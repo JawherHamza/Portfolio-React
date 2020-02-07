@@ -1,2 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
+https://jawherhamzaintl.netlify.com/
+https://jawherhamzaintl.netlify.com/sitemap.xml
 User-agent: *
+Disallow:

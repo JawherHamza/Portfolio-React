@@ -1,0 +1,4 @@
+https://jawherhamzaintl.netlify.com/
+https://jawherhamzaintl.netlify.com/sitemap.xml
+User-agent: *
+Disallow:
