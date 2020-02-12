@@ -198,6 +198,10 @@
       "skillTitle": "Database",
       "list": [
         {
+          "skill": "MongooDB",
+          "picture": "https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/2160067051553750371-256.png"
+        },
+        {
           "skill": "PL/SQL",
           "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
         },
