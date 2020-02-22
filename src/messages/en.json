@@ -1,7 +1,7 @@
 {
   "download-cv-french": "CV (French)",
   "download-cv-english": "CV (English)",
-  "status": "Front End Web Developer and Consultant at Sopra HR Software.",
+  "status": "FullStack Developer at Vneuron.",
   "firstname": "Firstname",
   "lastname": "Lastname",
   "birthday": "Date of Birth",
@@ -197,6 +197,10 @@
     "Base de données": {
       "skillTitle": "Database",
       "list": [
+        {
+          "skill": "MongooDB",
+          "picture": "https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/2160067051553750371-256.png"
+        },
         {
           "skill": "PL/SQL",
           "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"

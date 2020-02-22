@@ -1,7 +1,7 @@
 {
     "download-cv-french": "CV (Français)",
     "download-cv-english": "CV (Anglais)",
-    "status": "Développeur Front End et Consultant chez Sopra HR Software.",
+    "status": "Développeur FullStack chez Vneuron.",
     "firstname": "Prénom",
     "lastname": "Nom",
     "birthday": "Date de Naissance",
@@ -194,7 +194,12 @@
         },
         "Base de données": {
             "skillTitle": "Base de données",
-            "list": [{
+            "list": [
+                {
+                    "skill": "MongooDB",
+                    "picture": "https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/2160067051553750371-256.png"
+                },
+                {
                     "skill": "PL/SQL",
                     "picture": "https://optedif-formation.fr/build/images/logo-sn/formation-pl-sql.png"
                 },
