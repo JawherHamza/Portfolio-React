@@ -41,3 +41,7 @@ a {
     height: "100%";
     text-align: "left";
 }
+
+.intro span {
+    color: #ebc000 !important;
+}
