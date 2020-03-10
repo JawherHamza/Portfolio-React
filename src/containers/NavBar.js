@@ -114,7 +114,7 @@ export default function NavBar({ setLanguage }) {
               </div>
             </Hidden>
             <IconButton
-              style={{ float: "right" }}
+              style={{ float: "right",color:''#ebc000' }}
               aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
