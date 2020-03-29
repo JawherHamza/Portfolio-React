@@ -7,7 +7,7 @@
   "birthday": "Date of Birth",
   "hi": "HI !",
   "name": "I'M JAWHER HAMZA",
-  "intro": "I'm related to web development. I follow-up on the most recent changes in web development and i do it with passion. I set up this site in order to expose my career and share my passion.",
+  "intro": "I am related to software development, I follow the latest changes in the field and I do it with passion. I set up this site to expose my career and share my passion.",
   "show-more": "Show More",
   "cursus-title": "Cursus",
   "skills-title": "Skills",
@@ -63,12 +63,6 @@
     }
   },
   "scolaire": {
-    "scolaire1": {
-      "date": "2019 -> present",
-      "place": "TEK-UP University",
-      "title": "Engineer's degree, Software Engineering",
-      "pic": "http://shops.tn/wp-content/uploads/2019/02/TEK-UP-University.jpg"
-    },
     "scolaire2": {
       "date": "2016 -> 2019",
       "place": "Higher Institute of Technological Studies of Radès",
@@ -85,8 +79,7 @@
   "skills": {
     "front-end": {
       "skillTitle": "Front End",
-      "list": [
-        {
+      "list": [{
           "skill": "JavaScript",
           "sub": "ES5/6",
           "picture": "https://blog.savoirfairelinux.com/fr-ca/wp-content/uploads/2017/12/javascript.png"
@@ -126,8 +119,7 @@
     },
     "back-end": {
       "skillTitle": "Back End",
-      "list": [
-        {
+      "list": [{
           "skill": "Node JS",
           "sub": "ExpressJS",
           "picture": "https://www.apollo-formation.com/wp-content/uploads/Node.js_logo.svg_-300x300.png"
@@ -149,8 +141,7 @@
     },
     "Gestion des versions et de projet": {
       "skillTitle": "Version and project management",
-      "list": [
-        {
+      "list": [{
           "skill": "GIT",
           "sub": "Github, GitLab, BitBucket",
           "picture": "https://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
@@ -179,8 +170,7 @@
     },
     "Test & Automatisation": {
       "skillTitle": "Test & Automation",
-      "list": [
-        {
+      "list": [{
           "skill": "Selenium",
           "picture": "https://huddle.eurostarsoftwaretesting.com/wp-content/uploads/2017/02/Selenium.png"
         },
@@ -196,8 +186,7 @@
     },
     "Base de données": {
       "skillTitle": "Database",
-      "list": [
-        {
+      "list": [{
           "skill": "MongooDB",
           "picture": "https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/2160067051553750371-256.png"
         },
@@ -229,8 +218,7 @@
     },
     "Applications de bureau": {
       "skillTitle": "Desktop Applications",
-      "list": [
-        {
+      "list": [{
           "skill": "Windows Forms ( C# / .NET)",
           "picture": "https://www.apollo-formation.com/wp-content/uploads/Visual_Studio_2013_Logo.svg_-290x300.png"
         },
@@ -242,8 +230,7 @@
     },
     "Autres": {
       "skillTitle": "More",
-      "list": [
-        {
+      "list": [{
           "skill": "Android",
           "picture": "https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png"
         },
@@ -294,8 +281,7 @@
       ]
     }
   },
-  "tileData": [
-    {
+  "tileData": [{
       "img": "./Cometrip.PNG",
       "title": "ComeTrip",
       "desc": "Creation of a web platform (Alternative de Airbnb) which offers short-term property rental services in Senegal.",
@@ -327,8 +313,7 @@
     }
   ],
   "passion-title": "Passions",
-  "passions": [
-    {
+  "passions": [{
       "name": "Liverpool Football Club",
       "pic": "https://d.newsweek.com/en/full/1527584/jurgen-klopp-liverpool-uefa-champions-league.jpg"
     },
