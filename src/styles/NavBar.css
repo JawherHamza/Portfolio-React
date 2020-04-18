@@ -1,81 +1,81 @@
 .language-ico {
-  max-width: 20px;
-  margin: 5px;
+    max-width: 20px;
+    margin: 5px;
 }
 
 .MuiAppBar-colorPrimary {
-  color: #fff;
-  background-color: rgba(190, 190, 190, 0.6) !important;
+    color: #fff;
+    background-color: rgba(190, 190, 190, 0.6) !important;
 }
 
 .navbar-brand {
-  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
-  text-shadow: 4px 4px 3px rgba(155, 155, 155, 0.281);
-  font-size: 35px;
-  animation: blinker 3s linear;
-  animation-iteration-count: 2;
-  color: rgb(255, 255, 255);
+    font: 400 130px/0.8 "Cookie", Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px rgba(155, 155, 155, 0.281);
+    font-size: 35px;
+    animation: blinker 3s linear;
+    animation-iteration-count: 2;
+    color: white;
 }
 
 #dash,
 #dash2 {
-  color: rgb(235, 192, 0) !important;
-  font-size: 14px;
+    color: rgb(235, 192, 0) !important;
+    font-size: 14px;
 }
 
 body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif !important;
+    margin: 0;
+    font-family: "Montserrat", sans-serif !important;
 }
 
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .title {
-  margin: 30px 10px;
-  border-left: 3px solid rgb(235, 192, 0);
-  padding: 0 30px;
-  text-transform: uppercase;
-  font-weight: 200;
+    margin: 30px 10px;
+    border-left: 3px solid rgb(235, 192, 0);
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .PrivateTabIndicator-colorSecondary-301 {
-  background-color: rgb(235, 192, 0) !important;
+    background-color: rgb(235, 192, 0) !important;
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 10px;
+    width: 5px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 4px;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: grey;
-  border-radius: 4px;
+    background: grey;
+    border-radius: 4px;
 }
 
 .nav-links {
-  padding: 10px;
-  color: rgb(235, 192, 0)
+    padding: 10px;
+    color: rgb(235, 192, 0);
 }
 
 .nav-links a {
-  padding: 5px;
+    padding: 5px;
 }
 
 .MuiList-padding {
-  padding: 0 !important
+    padding: 0 !important;
 }
 
 .skills-tab {
-  border-radius: 20px;
+    border-radius: 20px;
 }
