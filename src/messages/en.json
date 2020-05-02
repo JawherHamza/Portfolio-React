@@ -51,14 +51,14 @@
                 "Definition of needs and functionalities to develop for the client."
             ],
             "place": "HMMG",
-            "title": "Intern / Front End Developer",
+            "title": "Front End Developer (Interne)",
             "pic": "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/p960x960/80696136_105023297668888_1729984230936543232_o.png?_nc_cat=100&_nc_ohc=G4z4OkV7QrsAX8vHAmf&_nc_ht=scontent.ftun3-1.fna&oh=dbf66f6664fd2b79e2e7ee29c2b00ea6&oe=5E911021"
         },
         "cursus3": {
             "date": "01 / 2018 -> 02 / 2018",
             "desc": ["Build a restaurant discovery application using ASP.NET Core"],
             "place": "PeakSource",
-            "title": "Intern",
+            "title": "Web Developer (Intern)",
             "pic": "data:image/png;base64,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"
         }
     },
@@ -102,16 +102,12 @@
                     "picture": "https://cdn.dribbble.com/users/2162265/screenshots/5816007/daily_ui_ui_logo.png"
                 },
                 {
-                    "skill": "SASS / LESS",
-                    "picture": "https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
-                },
-                {
-                    "skill": "JSON / XML",
-                    "picture": "https://daoinsights.com/wp-content/uploads/2015/08/json-logo.png"
-                },
-                {
                     "skill": "jQuery",
                     "picture": "https://joykal.com/wp-content/uploads/2019/09/jquery.png"
+                },
+                {
+                    "skill": "SASS / LESS",
+                    "picture": "https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
                 },
                 {
                     "skill": "HTML5 / CSS 3",
@@ -208,28 +204,6 @@
                 }
             ]
         },
-        "DevOps": {
-            "skillTitle": "DevOps",
-            "list": [
-                {
-                    "skill": "Docker",
-                    "sub": "docker-compose",
-                    "picture": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
-                },
-                {
-                    "skill": "Kubernets",
-                    "picture": "https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/20090363691548218201-256.png"
-                },
-                {
-                    "skill": "TravisCI",
-                    "picture": "https://cdn.iconscout.com/icon/free/png-256/travis-ci-555867.png"
-                },
-                {
-                    "skill": "GitLabCI",
-                    "picture": "https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1436005432/xnceesad5dbk42jdwlcp.png"
-                }
-            ]
-        },
         "Test & Automatisation": {
             "skillTitle": "Test & Automation",
             "list": [
@@ -264,32 +238,37 @@
             "skillTitle": "More",
             "list": [
                 {
+                    "skill": "Docker",
+                    "sub": "docker-compose",
+                    "picture": "https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
+                },
+                {
                     "skill": "Android",
                     "picture": "https://icons-for-free.com/iconfiles/png/512/android+logo+mobile+mobile+phone+icon-1320196075444927847.png"
-                },
-                {
-                    "skill": "Axios",
-                    "picture": "https://avatars0.githubusercontent.com/u/3382421?s=400&v=4"
-                },
-                {
-                    "skill": "Postman",
-                    "picture": "https://www.getpostman.com/img/v2/logo-glyph.png"
                 },
                 {
                     "skill": "Linux",
                     "picture": "https://3.bp.blogspot.com/-a7jPVdFk9Hw/W_XeTJX6JyI/AAAAAAAAC2c/HCtxP0wSSs0wEMKJOYq7pivEJaSVin92gCLcBGAs/s1600/powershell.png"
                 },
                 {
+                    "skill": "GitLab CI",
+                    "picture": "https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1436005432/xnceesad5dbk42jdwlcp.png"
+                },
+                {
                     "skill": "UML",
                     "picture": "http://fortimelp.fr/250-large_default/formation-uml-analyse-et-conception-4-jours.jpg"
                 },
                 {
-                    "skill": "ESLint",
-                    "picture": "https://rawgit.com/mattpjohnson/VS-Code-Web-Powerpack/master/docs/es-lint.png"
-                },
-                {
                     "skill": "C",
                     "picture": "https://ladghemsaid.github.io/TP3/c.png"
+                },
+                {
+                    "skill": "Facebook Developers API",
+                    "picture": "https://ps.w.org/facebook-for-woocommerce/assets/icon-256x256.png?rev=2040223"
+                },
+                {
+                    "skill": "Postman",
+                    "picture": "https://www.getpostman.com/img/v2/logo-glyph.png"
                 },
                 {
                     "skill": "COBOL",
@@ -298,15 +277,6 @@
                 {
                     "skill": "Putty / FileZilla",
                     "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png"
-                },
-
-                {
-                    "skill": "Netlify",
-                    "picture": "https://temudokter.netlify.com/static/media/netlify.92b6c228.png"
-                },
-                {
-                    "skill": "Facebook Developers API",
-                    "picture": "https://ps.w.org/facebook-for-woocommerce/assets/icon-256x256.png?rev=2040223"
                 }
             ]
         }
