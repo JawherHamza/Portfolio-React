@@ -25,7 +25,11 @@
     "cursus": {
         "cursus0": {
             "date": "02 / 2020 -> present",
-            "desc": ["Full Stack JavaScript Developer"],
+            "desc": [
+                "Development of a platform for creating chabots (VBot) which includes the natural language used to design and integrate a conversational user interface for messenger, slack, iframe, custom interface ...",
+                "Development of a platform which helps journalists to report the false news.",
+                "Main technologies: MERN, Docker"
+            ],
             "place": "Vneuron",
             "title": "FullStack Developer",
             "pic": "https://www.tunisiemploi.com.tn/wp-content/uploads/2018/08/vneuron-250x250.jpg"
@@ -173,7 +177,7 @@
             "skillTitle": "Database",
             "list": [
                 {
-                    "skill": "MongooDB",
+                    "skill": "MongoDB",
                     "sub": "Mongoose",
                     "picture": "https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/2160067051553750371-256.png"
                 },

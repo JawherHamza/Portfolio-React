@@ -25,7 +25,11 @@
     "cursus": {
         "cursus0": {
             "date": "02 / 2020 -> présent",
-            "desc": ["Développeur Full Stack JavaScript "],
+            "desc": [
+                "Développement d'une plateforme de création des chabots (VBot) qui comprend la langage naturel utilisée pour concevoir et intégrer une interface utilisateur conversationnelle pour messenger, slack, iframe, custom interface ...",
+                "Développement d'une plate-forme qui aide les journalistes à signaler les fausses nouvelles.",
+                "Technologies principales : MERN, Docker"
+            ],
             "place": "Vneuron",
             "title": "Développeur FullStack",
             "pic": "https://www.tunisiemploi.com.tn/wp-content/uploads/2018/08/vneuron-250x250.jpg"
