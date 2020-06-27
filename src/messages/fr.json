@@ -284,6 +284,16 @@
     },
     "tileData": [
         {
+            "img": "./VBot.PNG",
+            "title": "VBot",
+            "desc": "Développement d'une plateforme de création des chabots (VBot) qui comprend la langage naturel utilisée pour concevoir et intégrer une interface utilisateur conversationnelle pour messenger, slack, iframe, custom interface ..."
+        },
+        {
+            "img": "./HAICA.PNG",
+            "title": "HAICA",
+            "desc": "Développement d'une plate-forme qui aide les journalistes à signaler les fausses nouvelles à partir de multiples ressources médias (facebook, youtube, instagram ...) avec l'utilisation du scrapping web."
+        },
+        {
             "img": "./Cometrip.PNG",
             "title": "ComeTrip",
             "desc": "Création d’une plateforme web (Alternative de Airbnb) qui propose des services de locations de biens immobiliers à court terme dans le Sénégal.",
